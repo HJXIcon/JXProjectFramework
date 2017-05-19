@@ -46,14 +46,16 @@
             
             
             // 发起请求
-            NSURLSessionDataTask *task = [self.sessionManager GET:@"http://www.saitjr.com/api_for_test/static_article_list.php" parameters:parameters success:^(NSURLSessionDataTask * _Nonnull task, id  _Nonnull responseObject) {
-                
+            NSURLSessionDataTask *task = [self.sessionManager GET:@"http://www.saitjr.com/api_for_test/static_article_list.php" parameters:parameters progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
+
                 // 可封装为请求正确，但是校验未通过处理
                 if ([responseObject[@"code"] integerValue] == RequestErrorCode_NoData) {
                     [subscriber sendNext:nil];
                     [subscriber sendError:GlobalError(GlobalErrorType_Request, @"没数据啦")];
                     return;
                 }
+                
+                
                 
                 
                 // 将请求下来的字典->模型

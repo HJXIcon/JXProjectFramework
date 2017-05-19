@@ -18,10 +18,17 @@
 #define ST_APP_BUILD   ([[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleVersion"])
 
 
+/**! 屏幕适配*/
 #define kScreenW ([UIScreen mainScreen].bounds.size.width)
 #define kScreenH ([UIScreen mainScreen].bounds.size.height)
 
 
+/**! Dubug相关*/
+#ifdef DEBUG
+#define JXLog(format,...)  NSLog((@"[函数名:%s]\n" "[行号:%d]\n" format),__FUNCTION__,__LINE__,##__VA_ARGS__)
+#else
+#define JXLog(...)
+#endif
 
 
 #endif /* Define_h */
