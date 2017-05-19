@@ -7,7 +7,15 @@
 //
 
 #import <AFNetworking/AFNetworking.h>
+/*!
+ 封装的网络请求框架一共三层：
+ 第三层：ASI、AF或者其他网络请求方式。
+ 第二层：第二层分有基类与类目(Category)构成，基类用于配置共有参数与发起请求，分类则是为了团队开发与结构清晰。
+ 第一层：即应用层，比如一个登录、注册操作，需要从界面上获得参数，并配置回调。
+ */
 
+// 网络请求框架封装
+//![image](http://www.brighttj.com/ios/ios-network-foundation.html)
 
 
 /**定义请求类型的枚举*/
