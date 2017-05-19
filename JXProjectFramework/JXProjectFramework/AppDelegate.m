@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import "JXTabBarController.h"
+
+
 
 @interface AppDelegate ()
 
@@ -16,9 +19,34 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    
+    JXTabBarController *tabBarC = [[JXTabBarController alloc]init];
+    self.window.rootViewController = tabBarC;
+    
+    [self.window makeKeyAndVisible];
+    
+    // 创建需要的表
+    [self configFMDBTables];
+    
     return YES;
 }
+
+
+// 创建需要的表
+- (void)configFMDBTables {
+    
+    
+    [[FMDatabaseQueue shareInstense] inDatabase:^(FMDatabase *db) {
+        
+        [db executeUpdate:createArticleSQL];
+    }];
+}
+
+
+
+
 
 
 - (void)applicationWillResignActive:(UIApplication *)application {
