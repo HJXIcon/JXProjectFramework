@@ -7,7 +7,7 @@ pod 'ReactiveCocoa', '2.4.7'
 pod 'AFNetworking', '~> 3.1.0'
 pod 'FMDB', '~> 2.6.2'
 pod 'MJExtension', '~> 3.0.13'
-
+pod 'PPNetworkHelper', '~> 0.8.0'# AFNetworking 3.x 与YYCache封装,一句代码搞定数据请求与缓存,告别FMDB!控制台直接打印json中文字符,调试更方便
 
 
 end
