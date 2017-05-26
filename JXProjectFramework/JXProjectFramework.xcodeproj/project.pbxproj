@@ -35,6 +35,7 @@
 		042719BB1ECED7C60063B6ED /* NotificationNames.m in Sources */ = {isa = PBXBuildFile; fileRef = 042719BA1ECED7C60063B6ED /* NotificationNames.m */; };
 		042719BE1ECED89A0063B6ED /* JXBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 042719BD1ECED89A0063B6ED /* JXBaseTableViewCell.m */; };
 		042719C21ECEE1510063B6ED /* NetWorkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 042719C11ECEE1510063B6ED /* NetWorkManager.m */; };
+		048C415C1ED7D37500EB3994 /* PPHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 048C415B1ED7D37500EB3994 /* PPHTTPRequest.m */; };
 		344BA8C5D85FE2A01A538E3B /* libPods-JXProjectFramework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 81ADB749CBA4D9AE15715490 /* libPods-JXProjectFramework.a */; };
 /* End PBXBuildFile section */
 
@@ -98,6 +99,8 @@
 		042719BD1ECED89A0063B6ED /* JXBaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXBaseTableViewCell.m; sourceTree = "<group>"; };
 		042719C01ECEE1510063B6ED /* NetWorkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetWorkManager.h; sourceTree = "<group>"; };
 		042719C11ECEE1510063B6ED /* NetWorkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetWorkManager.m; sourceTree = "<group>"; };
+		048C415A1ED7D37500EB3994 /* PPHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPHTTPRequest.h; sourceTree = "<group>"; };
+		048C415B1ED7D37500EB3994 /* PPHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPHTTPRequest.m; sourceTree = "<group>"; };
 		2297769CA9925FD5C3700F0B /* Pods-JXProjectFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JXProjectFramework.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JXProjectFramework/Pods-JXProjectFramework.debug.xcconfig"; sourceTree = "<group>"; };
 		81ADB749CBA4D9AE15715490 /* libPods-JXProjectFramework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JXProjectFramework.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9423E8E27CB33C4C4A236119 /* Pods-JXProjectFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JXProjectFramework.release.xcconfig"; path = "Pods/Target Support Files/Pods-JXProjectFramework/Pods-JXProjectFramework.release.xcconfig"; sourceTree = "<group>"; };
@@ -227,6 +230,8 @@
 				042719601ECE993F0063B6ED /* Controller */,
 				042719A11ECEC5BB0063B6ED /* SQL */,
 				0427196A1ECE9B860063B6ED /* Define.h */,
+				048C415A1ED7D37500EB3994 /* PPHTTPRequest.h */,
+				048C415B1ED7D37500EB3994 /* PPHTTPRequest.m */,
 				042719B31ECECD680063B6ED /* CFunctions.h */,
 				042719B41ECECD680063B6ED /* CFunctions.m */,
 				042719B91ECED7C60063B6ED /* NotificationNames.h */,
@@ -667,6 +672,7 @@
 				042719661ECE99850063B6ED /* JXTabBarController.m in Sources */,
 				042719591ECE98460063B6ED /* JXBaseModel.m in Sources */,
 				042719921ECEA1F80063B6ED /* JXDiscoverViewController.m in Sources */,
+				048C415C1ED7D37500EB3994 /* PPHTTPRequest.m in Sources */,
 				042719B51ECECD680063B6ED /* CFunctions.m in Sources */,
 				0427199D1ECEA2930063B6ED /* JXShopViewController.m in Sources */,
 				042719311ECE95B10063B6ED /* main.m in Sources */,
