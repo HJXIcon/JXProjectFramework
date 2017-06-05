@@ -33,6 +33,7 @@
 #endif
 
 
+
 /*!   ------  网络请求 -------       */
 /*
  
@@ -43,27 +44,29 @@
  如下:现在的状态为测试服务器
  这样做切换方便,不用来回每个网络请求修改请求域名,降低出错事件
  */
+
+
 #define DevelopSever 0
 #define TestSever    1
 #define ProductSever 0
 
 #if DevelopSever
 /** 接口前缀-开发服务器*/
-NSString *const kApiPrefix = @"接口服务器的请求前缀 例: http://192.168.10.10:8080";
+static NSString *const kApiPrefix = @"接口服务器的请求前缀 例: http://192.168.10.10:8080";
 #elif TestSever
 /** 接口前缀-测试服务器*/
-NSString *const kApiPrefix = @"https://www.baidu.com";
+static NSString *const kApiPrefix = @"https://www.baidu.com";
 #elif ProductSever
 /** 接口前缀-生产服务器*/
-NSString *const kApiPrefix = @"https://www.baidu.com";
+static NSString *const kApiPrefix = @"https://www.baidu.com";
 #endif
 
 
 #pragma mark - 详细接口地址
 /** 登录*/
-NSString *const kLogin = @"/login";
+static NSString *const kLogin = @"/login";
 /** 平台会员退出*/
-NSString *const kExit = @"/exit";
+static NSString *const kExit = @"/exit";
 
 
 #endif /* Define_h */
