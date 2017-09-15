@@ -897,7 +897,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "/Users/mac/Desktop/数据plist/JXProjectFramework/JXProjectFramework/JXProjectFramework/JXProjectFramework.pch";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/JXProjectFramework/JXProjectFramework.pch";
 				INFOPLIST_FILE = JXProjectFramework/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fxtz.fxtzapp.JXProjectFramework;
@@ -911,7 +911,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "/Users/mac/Desktop/数据plist/JXProjectFramework/JXProjectFramework/JXProjectFramework/JXProjectFramework.pch";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/JXProjectFramework/JXProjectFramework.pch";
 				INFOPLIST_FILE = JXProjectFramework/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fxtz.fxtzapp.JXProjectFramework;

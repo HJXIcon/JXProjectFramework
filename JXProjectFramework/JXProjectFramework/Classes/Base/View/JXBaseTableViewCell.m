@@ -26,8 +26,14 @@
 
 - (void)setup{
     
-    self.separatorInset = UIEdgeInsetsZero;
-    self.layoutMargins = UIEdgeInsetsZero;
+    if ([self respondsToSelector:@selector(separatorInset)]) {
+        
+        self.separatorInset = UIEdgeInsetsZero;
+    }
+    if ([self respondsToSelector:@selector(layoutMargins)]) {
+        
+        self.layoutMargins = UIEdgeInsetsZero;
+    }
     self.selectionStyle = UITableViewCellSelectionStyleNone;
 }
 
