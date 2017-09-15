@@ -53,6 +53,7 @@
 		04F3A9721F2358F300A84962 /* UIView+ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F3A9611F2358F300A84962 /* UIView+ViewController.m */; };
 		04F3A9731F2358F300A84962 /* UIView+Visuals.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F3A9631F2358F300A84962 /* UIView+Visuals.m */; };
 		344BA8C5D85FE2A01A538E3B /* libPods-JXProjectFramework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 81ADB749CBA4D9AE15715490 /* libPods-JXProjectFramework.a */; };
+		F35913D21F6BBE9D007336FF /* ApiRequestNames.m in Sources */ = {isa = PBXBuildFile; fileRef = F35913D11F6BBE9D007336FF /* ApiRequestNames.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -152,6 +153,8 @@
 		2297769CA9925FD5C3700F0B /* Pods-JXProjectFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JXProjectFramework.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JXProjectFramework/Pods-JXProjectFramework.debug.xcconfig"; sourceTree = "<group>"; };
 		81ADB749CBA4D9AE15715490 /* libPods-JXProjectFramework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JXProjectFramework.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9423E8E27CB33C4C4A236119 /* Pods-JXProjectFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JXProjectFramework.release.xcconfig"; path = "Pods/Target Support Files/Pods-JXProjectFramework/Pods-JXProjectFramework.release.xcconfig"; sourceTree = "<group>"; };
+		F35913D01F6BBE9D007336FF /* ApiRequestNames.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApiRequestNames.h; sourceTree = "<group>"; };
+		F35913D11F6BBE9D007336FF /* ApiRequestNames.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApiRequestNames.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -284,6 +287,8 @@
 				042719B41ECECD680063B6ED /* CFunctions.m */,
 				042719B91ECED7C60063B6ED /* NotificationNames.h */,
 				042719BA1ECED7C60063B6ED /* NotificationNames.m */,
+				F35913D01F6BBE9D007336FF /* ApiRequestNames.h */,
+				F35913D11F6BBE9D007336FF /* ApiRequestNames.m */,
 			);
 			path = Global;
 			sourceTree = "<group>";
@@ -764,6 +769,7 @@
 				042719B21ECECBFD0063B6ED /* JXArticleModel.m in Sources */,
 				042719951ECEA2040063B6ED /* JXMoreViewController.m in Sources */,
 				04F3A9731F2358F300A84962 /* UIView+Visuals.m in Sources */,
+				F35913D21F6BBE9D007336FF /* ApiRequestNames.m in Sources */,
 				04F3A96A1F2358F300A84962 /* UIView+Find.m in Sources */,
 				042719AF1ECECBCC0063B6ED /* JXHomePageCellViewModel.m in Sources */,
 				04F3A96F1F2358F300A84962 /* UIView+Screenshot.m in Sources */,

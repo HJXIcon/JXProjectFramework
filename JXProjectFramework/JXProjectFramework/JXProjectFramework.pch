@@ -20,6 +20,7 @@
 #import "SQL.h"
 #import "FMDatabaseQueue+Extension.h"
 #import "CFunctions.h"
+#import "ApiRequestNames.h"
 
 
 #endif /* JXProjectFramework_pch */

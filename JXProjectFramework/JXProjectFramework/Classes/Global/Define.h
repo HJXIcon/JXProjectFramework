@@ -62,11 +62,7 @@ static NSString *const kApiPrefix = @"https://www.baidu.com";
 #endif
 
 
-#pragma mark - 详细接口地址
-/** 登录*/
-static NSString *const kLogin = @"/login";
-/** 平台会员退出*/
-static NSString *const kExit = @"/exit";
+
 
 
 #endif /* Define_h */
